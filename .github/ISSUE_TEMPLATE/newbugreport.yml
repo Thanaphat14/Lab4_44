@@ -55,6 +55,13 @@ body:
       multiple: true
       options:
         - burger
+  - type: dropdown
+    id: location
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Thailand
   - type: textarea
     id: logs
     attributes:
